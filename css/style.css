@@ -1,0 +1,174 @@
+.myDiv {
+    background-color: black;
+    text-align: right;
+}
+
+h3{
+    color:#828282;
+    font-size: 2.25em; 
+    /* dung em de tuy chinh size trong setting */
+}
+h1{
+    font-size: 4em;
+}
+.color{
+    color:#828282;
+}
+.red{
+    color:#EB5757;
+}
+.bg-footer{
+    background-color: #F2F2F2;
+}
+::selection{
+    color: red;
+    background-color:chartreuse;
+}
+.button{
+    background-color: black;
+    color:white;
+    padding: 16px 63px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+::selection{
+    background-color: black;
+    color: cyan;
+}
+
+@font-face{
+    font-family: svn-gilroy;
+    src: url(../font/svn-gilroy-medium.otf)
+}
+@font-face {
+    font-family: svn-gilroy;
+    src: url(../font/svn-gilroy-bold.otf);
+    font-weight: bold;
+}
+*{
+    font-family: svn-gilroy, Helvetica, sans-serif;
+    /* chinh font cho toan bo trang */
+}
+body{
+    font-size: 100%;
+}
+*{
+    border: none;
+}
+.border-index {
+    border-left: 5px solid #EB5757;
+}
+.search{
+    border:none;
+    border-radius: 20px;
+    background: #f2f2f2;
+    padding: 10px 20px;
+}
+.myDiv {
+    background-color: black;
+}
+h1{
+font-size: 64px;
+}
+.hobbies li::before{
+content: url(img/mt.svg);
+}
+.hobbies{
+line-height: 190%;
+}
+.standard-table img{
+vertical-align: bottom;
+}
+p{
+line-height: 190%;
+}
+.table-skill{
+border-collapse: collapse;
+}
+.table-skill tr{
+border-bottom: 1px solid #E0E0E0;
+}
+.standard-table{
+border-collapse: collapse;
+}
+.standard-table tr{
+border-bottom: 1px solid #E0E0E0;
+}
+.frofile-img{
+    margin: 48px 0 0;
+}
+.ecm{
+    margin: 30px 0 20px;
+}
+.phantram{
+    height: 5px;
+    background-color: #EB5757;
+}
+.color-select{
+    background-color: transparent ;
+    color:white;
+}
+.flex-container{
+    display: flex;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.width-index > article{
+    margin: 10px;
+    width: 200px;
+}
+.width-index img{
+   width: 100%;
+}
+.search-porfolio{
+    position: relative;
+}
+.tk{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.skills-lg>div{
+    padding: 10px;
+}
+.input-contact{
+    width: 470px;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin: 25px 0;
+}
+.input-mess{
+    width: 470px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin: 25px 0;
+}
+.margin-index{
+    margin: 100px;
+}
+.margin-left{
+    margin: 30px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
